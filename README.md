@@ -12,7 +12,7 @@ https://git-scm.com/downloads/mac
 git init
 
 # 克隆遠端倉庫
-git clone <repository url>
+git clone <<repository url>>
 
 # 查看當前倉庫狀態
 git status
