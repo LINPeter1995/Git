@@ -82,3 +82,27 @@ git tag
 
 # 推送標籤到遠端
 git push origin <tag-name>
+
+# 回退到指定的提交 (保留工作區變更)
+git reset --soft <commit-hash>
+
+# 回退到指定的提交 (保留工作區的變更，但不保留暫存區的變更)
+git reset --mixed <commit-hash>
+
+# 完全回退到指定的提交 (撤銷所有變更，恢復到指定的提交狀態)
+git reset --hard <commit-hash>
+
+# 回退到遠端分支狀態
+git reset --hard origin/<branch-name>
+
+# 撤銷某個檔案的所有修改，讓它回到最近一次提交的狀態
+git checkout -- <file-name>
+
+# 使用新版 Git，撤銷某個檔案的所有修改
+git restore <file-name>
+
+# 刪除未追蹤的檔案
+git clean -f
+
+# 刪除未追蹤的檔案和資料夾
+git clean -fd
