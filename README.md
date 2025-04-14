@@ -12,7 +12,7 @@ https://git-scm.com/downloads/mac
 git init
 
 # 克隆遠端倉庫
-git clone <儲存倉的網址>
+git clone <儲存庫網址>
 
 # 查看當前倉庫狀態
 git status
@@ -21,7 +21,7 @@ git status
 git config --list
 
 # 添加文件到暫存區
-git add <file-name>
+git add <檔案名稱>
 
 # 添加所有變更的檔案到暫存區
 git add .
@@ -36,10 +36,10 @@ git log
 git remote -v
 
 # 從遠端倉庫拉取更新
-git pull <remote> <branch>
+git pull <遠端名稱> <分支名稱>
 
 # 推送到遠端倉庫
-git push <remote> <branch>
+git push <遠端名稱> <遠端名稱branch>
 
 # 查看所有分支
 git branch
