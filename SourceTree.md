@@ -4,7 +4,7 @@ File-Clone/New
 
 URL-github哪個倉庫
 
-PATH-檔案位置
+Source Path/URL-檔案位置
 
 取檔名
 
