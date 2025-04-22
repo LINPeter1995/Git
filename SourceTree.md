@@ -2,11 +2,11 @@
 
 File-Clone/New
 
-URL-github哪個倉庫
+Local/Remote
 
 Source Path/URL-檔案位置
 
-取檔名
+Name: Committer的名字
 
 用vscode做檔案操作
 
